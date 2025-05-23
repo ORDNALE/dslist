@@ -43,9 +43,9 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>		
 		<dependency>
-			<groupId>org.postgresql</groupId>
+			<groupId>org.postgresql</groupId> <!--dependencia para o banco de dados em memoria-->
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
@@ -69,5 +69,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
